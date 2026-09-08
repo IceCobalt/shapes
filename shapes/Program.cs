@@ -1,0 +1,7 @@
+﻿namespace shapes {
+    internal class Program {
+        static void Main( string[] args ) {
+            Console.WriteLine("Hello, 0World!");
+        }
+    }
+}

@@ -23,7 +23,7 @@ namespace shapes {
         }
         //Copy Constructor
         public Rectangle(Rectangle r) {
-            Console.WriteLine("A familiar rectangle touches the beacon with intent");
+            Console.WriteLine("A familiar rectangle touches the beacon");
             Height = r.Height;
             Width = r.Width;
         }

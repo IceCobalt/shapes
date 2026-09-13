@@ -13,7 +13,8 @@ namespace shapes {
             Console.WriteLine($"A new circle, yet to form, touches the beacon");
         }
 
-        public Circle(double Radius) {
+        public Circle(double R) {
+            Radius = R;
             Console.WriteLine($"A new circle at about {Radius}cm touches the beacon");
         }
         public Circle(Circle original) {
@@ -22,11 +23,11 @@ namespace shapes {
         }
 
         //Methods
-        public double CalculateArea(double Radius) {
+        public double CalculateArea() {
             return Math.PI * Math.Pow(Radius,2); 
         }
 
-        public double CalculatePerimeter(double Radius) {
+        public double CalculatePerimeter() {
             return 2 * Math.PI * Radius;
         }
     }

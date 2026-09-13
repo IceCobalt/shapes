@@ -24,11 +24,11 @@ namespace shapes {
 
         //Methods
         public double CalculateArea() {
-            return Math.PI * Math.Pow(Radius,2); 
+            return Math.Round(Math.PI * Math.Pow(Radius,2), 2); 
         }
 
         public double CalculatePerimeter() {
-            return 2 * Math.PI * Radius;
+            return Math.Round(2 * Math.PI * Radius, 2);
         }
     }
 }
